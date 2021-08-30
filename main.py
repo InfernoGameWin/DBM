@@ -4,6 +4,7 @@ import discord
 from discord.ext import commands
 import os
 import logging
+from private.config import TOKEN
 
 logging.basicConfig(level=logging.INFO)
 
@@ -25,5 +26,5 @@ async def on_ready():
 # bot.load_extension("cogs.economy")
 bot.load_extension("cogs.serverCommands")
 
-bot.run("ODUzNjU2MDMzOTg5MDk5NTcx.YMYjIg.CglVbkTKssiuEHPgcJpH-WJJMoM")
+bot.run(TOEKN)
 
