@@ -26,5 +26,5 @@ async def on_ready():
 # bot.load_extension("cogs.economy")
 bot.load_extension("cogs.serverCommands")
 
-bot.run(TOEKN)
+bot.run(TOKEN)
 
